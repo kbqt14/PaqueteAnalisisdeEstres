@@ -7,14 +7,6 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-install.packages("dplyr")
-  require(dplyr)
-DatosCeibo <-read.delim("Data/DatosCeibo.txt")
-Sem5 <- filter(DatosCeibo, Semana== "5")
-Sem5 %>%  group_by(Tratamiento) %>%
-summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
-
-
   
   
   
@@ -23,7 +15,7 @@ summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
 ```
 
 
-Tabla3(DatosCeibo)
+Tabla(DatosCeibo)
 
  Sem5 <- filter(DatosCeibo, Semana== "5")
 
