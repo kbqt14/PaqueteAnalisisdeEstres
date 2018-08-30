@@ -1,0 +1,46 @@
+---
+title: "Untitled1"
+author: "Andres"
+date: "28 de agosto de 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+install.packages("dplyr")
+  require(dplyr)
+DatosCeibo <-read.delim("Data/DatosCeibo.txt")
+Sem5 <- filter(DatosCeibo, Semana== "5")
+Sem5 %>%  group_by(Tratamiento) %>%
+summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
+
+
+  
+  
+  
+ 
+  
+```
+
+
+Tabla3(DatosCeibo)
+
+ Sem5 <- filter(DatosCeibo, Semana== "5")
+
+ Sem5m <-select(Sem5,(Longitud)%>% unlist
+    install.packages("dplyr")
+  require(dplyr)              
+                  
+  Trat0 <- filter(Sem5m, Tratamiento== "0") 
+  Trat5 <- filter(Sem5m, Tratamiento== "5")
+  Trat10 <- filter(Sem5m, Tratamiento== "10")
+  Trat50 <- filter(Sem5m, Tratamiento== "50")
+  Trat70 <- filter(Sem5m, Tratamiento== "70")
+  Trat100 <- filter(Sem5m, Tratamiento== "100")
+  Trat200 <- filter(Sem5m, Tratamiento== "200")
+  Trat300 <- filter(Sem5m, Tratamiento== "300")
+  Trat400 <- filter(Sem5m, Tratamiento== "400")
+  Trat500 <- filter(Sem5m, Tratamiento== "500")
+  
+  str(Sem5m)
+  mean(Sem5m)
