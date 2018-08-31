@@ -1,3 +1,14 @@
+#' Una función para datos de Ceibo
+#'
+#' Esta función ayuda a procesar los datos tomados por semana.
+#' @param Longitud de vastago
+#' @keywords Ceibo
+#' @export
+#' @examples
+#' Tabla5
+
+
+
 Tabla5=function(x){
   DatosCeibo <-read.delim("Data/DatosCeibo.txt")
   Sem5 <- filter(DatosCeibo, Semana== "5")
