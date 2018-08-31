@@ -9,6 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 str(DatosCeibo)
 
+require(devtools)
+install_github("kbqt14/PaqueteExamenUNGS")
+
 install.packages("dplyr")
 install.packages("PaqueteExamenUNGS")
 require(dplyr)
