@@ -7,32 +7,19 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+ParaGraficar4<- Tabla4(DatosCeibo)
+table(ParaGraficar4)
+Paragraficarya <-table(ParaGraficar4$Longitud)[ParaGraficar4$Semana=="5"] 
+
+head(ParaGraficar4)
+library(ggplot2)
+ggplot(ParaGraficar4,aes(as.factor(x=Tratamiento),y=Longitud))+geom_bar(stat="identity",width = 0.8)+scale_x_discrete(breaks=c("0","5","10","50","70","100","200","300","400","500"))+  scale_x_discrete(expand = expand_scale(add = 2))
+
   
-  
-  
- 
   
 ```
 
+ggplot(ParaGraficar4,aes(x=as.factor(Tratamiento) ),aes(y=as.factor(Longitud))) + geom_bar()
 
-Tabla(DatosCeibo)
 
- Sem5 <- filter(DatosCeibo, Semana== "5")
-
- Sem5m <-select(Sem5,(Longitud)%>% unlist
-    install.packages("dplyr")
-  require(dplyr)              
-                  
-  Trat0 <- filter(Sem5m, Tratamiento== "0") 
-  Trat5 <- filter(Sem5m, Tratamiento== "5")
-  Trat10 <- filter(Sem5m, Tratamiento== "10")
-  Trat50 <- filter(Sem5m, Tratamiento== "50")
-  Trat70 <- filter(Sem5m, Tratamiento== "70")
-  Trat100 <- filter(Sem5m, Tratamiento== "100")
-  Trat200 <- filter(Sem5m, Tratamiento== "200")
-  Trat300 <- filter(Sem5m, Tratamiento== "300")
-  Trat400 <- filter(Sem5m, Tratamiento== "400")
-  Trat500 <- filter(Sem5m, Tratamiento== "500")
-  
-  str(Sem5m)
-  mean(Sem5m)
+Tabla4(DatosCeibo)
