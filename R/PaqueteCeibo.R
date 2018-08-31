@@ -10,29 +10,7 @@
 
 
 Tabla5=function(x){
-    Sem5 <- filter(DatosCeibo, Semana== "5")
-  Sem5 %>%  group_by(Tratamiento) %>%
-    summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
-
-
-
-
-}
-
-
-Tabla4=function(x){
-   DatosCeibo <-read.delim("Data/DatosCeibo.txt")
-  Sem5 <- filter(DatosCeibo, Semana== "4")
-  Sem5 %>%  group_by(Tratamiento) %>%
-    summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
-
-
-
-
-}
-
-Tabla4=function(x){
-
+  DatosCeibo <-read.delim("Data/DatosCeibo.txt")
   Sem5 <- filter(DatosCeibo, Semana== "5")
   Sem5 %>%  group_by(Tratamiento) %>%
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
@@ -42,10 +20,22 @@ Tabla4=function(x){
 
 }
 
-Tabla3=function(x){
 
-  Sem5 <- filter(DatosCeibo, Semana== "3")
-  Sem5 %>%  group_by(Tratamiento) %>%
+Tabla4=function(x){
+  DatosCeibo <-read.delim("Data/DatosCeibo.txt")
+  Sem4 <- filter(DatosCeibo, Semana== "4")
+  Sem4 %>%  group_by(Tratamiento) %>%
+    summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
+
+
+
+
+}
+
+Tabla3=function(x){
+  DatosCeibo <-read.delim("Data/DatosCeibo.txt")
+  Sem3 <- filter(DatosCeibo, Semana== "3")
+  Sem3 %>%  group_by(Tratamiento) %>%
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
 
 
@@ -55,8 +45,8 @@ Tabla3=function(x){
 
 Tabla2=function(x){
 
-  Sem5 <- filter(DatosCeibo, Semana== "2")
-  Sem5 %>%  group_by(Tratamiento) %>%
+  Sem2 <- filter(DatosCeibo, Semana== "2")
+  Sem2 %>%  group_by(Tratamiento) %>%
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
 
 
@@ -65,9 +55,9 @@ Tabla2=function(x){
 }
 
 Tabla1=function(x){
-
-    Sem5 <- filter(DatosCeibo, Semana== "1")
-  Sem5 %>%  group_by(Tratamiento) %>%
+  DatosCeibo <-read.delim("Data/DatosCeibo.txt")
+    Sem1 <- filter(DatosCeibo, Semana== "1")
+  Sem1 %>%  group_by(Tratamiento) %>%
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
 
 
