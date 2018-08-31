@@ -1,14 +1,16 @@
 Package: PaqueteExamenUNGS
 Type: Package
 Title: #Este es un paquete para datos de Ceibo
-Version: #0.1.0.9000
+Version: 0.1.0.9000
 Authors@R: c(  person("Silverio", "Quintana",email="kbqt14@gmail.com", role=c("cre","aut")))
 
 Description: #Hay varias semanas, pero esto sirve para una semana en particular
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.5.1)
-Imports: dplyr(>= 0.7.6), ggplot2 (>= 3.0.0)
+Imports:
+  dplyr(>= 0.7.6),
+ggplot2 (>= 3.0.0)
 URL: https://github.com/kbqt14/PaqueteExamenUNGS
 BugReports: https://github.com/kbqt14/PaqueteExamenUNGS/issues
 RoxygenNote: 6.0.1
