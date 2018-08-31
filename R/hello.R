@@ -1,10 +1,10 @@
 Package: PaqueteExamenUNGS
 Type: Package
-Title: Este es un paquete para datos de Ceibo
-Version: 0.1.0.9000
+Title: #Este es un paquete para datos de Ceibo
+Version: #0.1.0.9000
 Authors@R: c(  person("Silverio", "Quintana",email="kbqt14@gmail.com", role=c("cre","aut")))
 
-Description: Hay varias semanas, pero esto sirve para una semana en particular
+Description: #Hay varias semanas, pero esto sirve para una semana en particular
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.5.1)
