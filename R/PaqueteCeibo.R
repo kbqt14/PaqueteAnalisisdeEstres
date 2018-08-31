@@ -1,6 +1,4 @@
 Tabla5=function(x){
-  install.packages("dplyr")
-  require(dplyr)
   DatosCeibo <-read.delim("Data/DatosCeibo.txt")
   Sem5 <- filter(DatosCeibo, Semana== "5")
   Sem5 %>%  group_by(Tratamiento) %>%
@@ -13,9 +11,7 @@ Tabla5=function(x){
 
 
 Tabla4=function(x){
-  install.packages("dplyr")
-  require(dplyr)
-  DatosCeibo <-read.delim("Data/DatosCeibo.txt")
+   DatosCeibo <-read.delim("Data/DatosCeibo.txt")
   Sem5 <- filter(DatosCeibo, Semana== "4")
   Sem5 %>%  group_by(Tratamiento) %>%
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
@@ -26,8 +22,6 @@ Tabla4=function(x){
 }
 
 Tabla4=function(x){
-  install.packages("dplyr")
-  require(dplyr)
   DatosCeibo <-read.delim("Data/DatosCeibo.txt")
   Sem5 <- filter(DatosCeibo, Semana== "5")
   Sem5 %>%  group_by(Tratamiento) %>%
@@ -39,8 +33,6 @@ Tabla4=function(x){
 }
 
 Tabla3=function(x){
-  install.packages("dplyr")
-  require(dplyr)
   DatosCeibo <-read.delim("Data/DatosCeibo.txt")
   Sem5 <- filter(DatosCeibo, Semana== "3")
   Sem5 %>%  group_by(Tratamiento) %>%
@@ -52,8 +44,6 @@ Tabla3=function(x){
 }
 
 Tabla2=function(x){
-  install.packages("dplyr")
-  require(dplyr)
   DatosCeibo <-read.delim("Data/DatosCeibo.txt")
   Sem5 <- filter(DatosCeibo, Semana== "2")
   Sem5 %>%  group_by(Tratamiento) %>%
@@ -63,14 +53,12 @@ Tabla2=function(x){
 
 
 }
+
 Tabla1=function(x){
-  install.packages("dplyr")
-  require(dplyr)
   DatosCeibo <-read.delim("Data/DatosCeibo.txt")
   Sem5 <- filter(DatosCeibo, Semana== "1")
   Sem5 %>%  group_by(Tratamiento) %>%
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
-
 
 
 

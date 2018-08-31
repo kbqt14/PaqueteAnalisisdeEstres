@@ -7,19 +7,21 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+str(DatosCeibo)
+
+install.packages("dplyr")
+library(dplyr)
+Tabla1(DatosCeibo)
+
 ParaGraficar4<- Tabla4(DatosCeibo)
 table(ParaGraficar4)
 Paragraficarya <-table(ParaGraficar4$Longitud)[ParaGraficar4$Semana=="5"] 
 
 head(ParaGraficar4)
 library(ggplot2)
-ggplot(ParaGraficar4,aes(as.factor(x=Tratamiento),y=Longitud))+geom_bar(stat="identity",width = 0.8)+scale_x_discrete(breaks=c("0","5","10","50","70","100","200","300","400","500"))+  scale_x_discrete(expand = expand_scale(add = 2))
+ggplot(ParaGraficar4,aes(as.factor(x=Tratamiento),y=Longitud))+geom_bar(stat="identity",width = 0.8,fill=)+scale_x_discrete(breaks=c("0","5","10","50","70","100","200","300","400","500"))+  scale_x_discrete(expand = expand_scale(add = 2))
 
   
   
 ```
 
-ggplot(ParaGraficar4,aes(x=as.factor(Tratamiento) ),aes(y=as.factor(Longitud))) + geom_bar()
-
-
-Tabla4(DatosCeibo)
