@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 str(DatosCeibo)
 
 install.packages("dplyr")
-install.packages("PaqueteCeibo")
+install.packages("PaqueteExamenUNGS")
 require(dplyr)
 require(PaqueteCeibo)
 Tabla5(DatosCeibo)
