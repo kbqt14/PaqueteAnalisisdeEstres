@@ -7,15 +7,16 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-str(DatosCeibo)
+
 
 
 install_github("kbqt14/PaqueteExamenUNGS")
 install.packages("dplyr")
 install.packages("PaqueteExamenUNGS")
+
 require(dplyr)
 DatosCeibo <-read.delim("Data/DatosCeibo.txt")
-require(PaqueteCeibo)
+require(PaqueteExamenUNGS)
 Tabla5(DatosCeibo)
 
 ParaGraficar5<- Tabla5(DatosCeibo)
