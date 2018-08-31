@@ -1,9 +1,9 @@
 Package: PaqueteExamenUNGS
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Este paquete me ayuda a hacer tablas
 Version: 0.1.0.9000
 Author: person("Silverio A", "Quintana",email="kbqt14@gmail.com", role=c("cre","aut"))
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer:  <kbqt14@gmail.com>
 Description: Arboles de ceibo.
 License: MIT
 Encoding: UTF-8
