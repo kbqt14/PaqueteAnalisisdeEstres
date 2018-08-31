@@ -7,7 +7,7 @@ Authors@R: c(  person("Silverio", "Quintana",email="kbqt14@gmail.com", role=c("c
 Description: Hay varias semanas, pero esto sirve para una semana en particular
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.4.4)
+Depends: R (>= 3.5.1)
 Imports: dplyr(>= 0.7.6), ggplot2 (>= 3.0.0)
 URL: https://github.com/kbqt14/PaqueteExamenUNGS
 BugReports: https://github.com/kbqt14/PaqueteExamenUNGS/issues
