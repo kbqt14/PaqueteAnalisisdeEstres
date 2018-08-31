@@ -8,9 +8,7 @@ Description: #Hay varias semanas, pero esto sirve para una semana en particular
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.5.1)
-Imports:
-  dplyr(>= 0.7.6),
-ggplot2 (>= 3.0.0)
+Imports:dplyr(>= 0.7.6),ggplot2 (>= 3.0.0)
 URL: https://github.com/kbqt14/PaqueteExamenUNGS
 BugReports: https://github.com/kbqt14/PaqueteExamenUNGS/issues
 RoxygenNote: 6.0.1
@@ -22,7 +20,7 @@ RemoteHost: https://api.github.com
 RemoteRepo: PaqueteExamenUNGS
 RemoteUsername: kbqt14
 RemoteRef: master
-RemoteSha: 56bea46bb6ab3a86b91a634114e146c509a18c99
+RemoteSha:
 GithubRepo: PaqueteExamenUNGS
 GithubUsername: kbqt14
 GithubRef: master
