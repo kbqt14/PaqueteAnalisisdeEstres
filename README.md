@@ -1,3 +1,5 @@
 # PaqueteExamenUNGS
-Paquete en proceso para generar tablas de datos experimentales por semana
-La idea es poder calcular las medias de las longitudes de partes aéreas de plantas que son sometidas a estrés por diferentes concentraciones de metales pesados.
+Paquete  para generar tablas de datos experimentales por semana. En este caso especifico se utilizan los datos de la semana 5 para realizar promedios y luego realizar grafico de barra.
+
+require(devtools)
+install_github("PaqueteExamenUNGS")
