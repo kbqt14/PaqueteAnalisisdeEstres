@@ -5,7 +5,7 @@
 #' @keywords Ceibo
 #' @export
 #' @examples
-#' Tabla5
+#' Este ejemplo es para la semana 5, que sería Tabla5
 
 
 

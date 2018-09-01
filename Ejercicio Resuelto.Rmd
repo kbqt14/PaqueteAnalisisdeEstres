@@ -7,9 +7,8 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
-
-
+require(devtools)
+install_github("kbqt14/PaqueteExamenUNGS")
 install.packages("dplyr")
 install.packages("PaqueteExamenUNGS")
 
@@ -22,7 +21,7 @@ ParaGraficar5<- Tabla5(DatosCeibo)
 table(ParaGraficar5)
 
 library(ggplot2)
-ggplot(ParaGraficar5,aes(as.factor(x=Tratamiento),y=Longitud))+geom_bar(stat="identity",width = 0.8)+scale_x_discrete(breaks=c("0","5","10","50","70","100","200","300","400","500"))+  scale_x_discrete(expand = expand_scale(add = 2))
+ggplot(ParaGraficar5,aes(as.factor(x=Tratamiento),y=Longitud))+geom_bar(stat="identity",width = 0.8)+scale_x_discrete(breaks=c("0","5","10","50","70","100","200","300","400","500"))+  scale_x_discrete(expand = expand_scale(add = 2)) +labs(x = "Tratamientos",y = "Longitud de vastago")
 
   
   
