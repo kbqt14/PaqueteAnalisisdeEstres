@@ -5,4 +5,4 @@ Para instalar el paquete se debe utilizar
 
 require(devtools)
 
-install_github("PaqueteExamenUNGS")
+install_github("kbqt14/PaqueteExamenUNGS")
