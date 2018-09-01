@@ -44,8 +44,8 @@ Tabla3=function(x){
 }
 
 Tabla2=function(x){
-
-  Sem2 <- filter(DatosCeibo, Semana== "2")
+  DatosCeibo <-read.delim("Data/DatosCeibo.txt")
+    Sem2 <- filter(DatosCeibo, Semana== "2")
   Sem2 %>%  group_by(Tratamiento) %>%
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
 
