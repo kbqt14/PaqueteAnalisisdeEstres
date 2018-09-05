@@ -3,13 +3,13 @@ Type: Package
 Title: Este paquete me ayuda a hacer tablas
 Version: 0.1.0.9000
 Author: person("Silverio A", "Quintana",email="kbqt14@gmail.com", role=c("cre","aut"))
-Maintainer:  <kbqt14@gmail.com>
+Maintainer: <kbqt14@gmail.com>
 Description: Arboles de ceibo.
 License: MIT
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.5.1)
-Imports:dplyr(>= 0.7.6),ggplot2 (>= 3.0.0)
+Imports: dplyr(>= 0.7.6),ggplot2 (>= 3.0.0)
 URL: https://github.com/kbqt14/PaqueteExamenUNGS
 BugReports: https://github.com/kbqt14/PaqueteExamenUNGS/issues
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
