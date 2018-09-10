@@ -1,11 +1,11 @@
 #' Una función para datos de Ceibo
 #'
-#' Esta función ayuda a procesar los datos tomados por semana.
-#' @param Longitud de vastago
+#' Esta función ayuda a procesar los datos tomados por semana hasta la semana 5.
+#' @param x Insertar una tabla con datos de excell que contengan las semanas, tratamientos y longitudes
 #' @keywords Ceibo
 #' @export
 #' @examples
-#' Este ejemplo es para la semana 5, que sería Tabla5
+#' Este ejemplo es para la semana 5, que sería -¿Tabla5
 
 
 
