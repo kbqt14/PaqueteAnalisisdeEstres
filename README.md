@@ -3,6 +3,10 @@ Paquete  para generar tablas de datos experimentales por semana.
 Los datos a importar deben estar contenidos en un bloc de notas, deben tener los siguientes titulos organizados en columnas Tratamiento	Semana	Longitud y se lo debe llamar DatosCeibo, el mismo debe estar en formato .txt
 El paquete cuenta con la posibilidad de filtrar la media por semana de todos los tratamientos y generar asi la tabla resumen por semana.
 Luego de tener la tabla se debe utilizar de la siguiente forma Tabla5=function(DatosCeibo)  para la semana 5
+Tratamiento Semana Longitud
+0            5       7.72
+5            5       7.31
+10           5       5.70
 Tabla4=function(DatosCeibo)  para la semana 4
 Tabla3=function(DatosCeibo)  para la semana 3
 Tabla2=function(DatosCeibo)  para la semana 2

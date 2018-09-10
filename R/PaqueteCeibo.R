@@ -11,7 +11,11 @@
 #' Si queremos los datos filtrados para la semana 4 deberiamos escribir
 #' Tabla4=function(x) donde x es DatosCeibo , que es la tabla original donde se encuentran todos los datos de todos los tratamientos y distintas semanas con sus determinadas longitudes.
 #' El siguiente ejemplo en particular es para la semana 5.
-#' Tabla5=function(DatosCeibo)
+#' Tabla5=function(DatosCeibo) arrojando el siguiente resultado
+#' Tratamiento Semana Longitud
+#'   0            5       7.72
+#'   5            5       7.31
+#'   10           5       5.70
 #' Si queremos los datos de la semana 3. Se escribiría Tabla3=function(DatosCeibo)
 
 
