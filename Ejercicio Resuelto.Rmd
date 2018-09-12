@@ -14,11 +14,14 @@ install_github("kbqt14/PaqueteExamenUNGS")
 install.packages("dplyr")
 install.packages("PaqueteExamenUNGS")
 
+install.packages("devtools")
+require("devtools")
+install.packages("dplyr")
 require(dplyr)
 DatosCeibo <-read.delim("Data/DatosCeibo.txt")
 require(PaqueteExamenUNGS)
 Tabla5(DatosCeibo)
-
+Tabla3(DatosCeibo)
 ParaGraficar5<- Tabla5(DatosCeibo)
 table(ParaGraficar5)
 
