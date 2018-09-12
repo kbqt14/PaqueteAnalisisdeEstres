@@ -11,7 +11,15 @@
 #' Si queremos los datos filtrados para la semana 4 deberiamos escribir
 #' Tabla4=(x) donde x es DatosCeibo , que es la tabla original donde se encuentran todos los datos de todos los tratamientos y distintas semanas con sus determinadas longitudes.
 #' El siguiente ejemplo en particular es para la semana 5.
-#' Tabla5=(DatosCeibo) arrojando el siguiente resultado
+#' install.packages("devtools")
+#'require(devtools)
+#'install_github("kbqt14/PaqueteExamenUNGS")
+#'require("PaqueteExamenUNGS")
+#'install.packages("dplyr")
+#'require(dplyr)
+#'DatosCeibo <-read.delim("Data/DatosCeibo.txt")
+#'Tabla5(DatosCeibo)
+#'arrojando el siguiente resultado
 #' Tratamiento Semana Longitud
 #'   0            5       7.72
 #'   5            5       7.31
