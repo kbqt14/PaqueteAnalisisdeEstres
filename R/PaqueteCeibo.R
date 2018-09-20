@@ -25,7 +25,7 @@
 #'   5            5       7.31
 #'   10           5       5.70
 #' Si queremos los datos de la semana 3. Se escribiría Tabla3=(DatosCeibo)
-
+use_data(DatosCeibo)
 
 
 
