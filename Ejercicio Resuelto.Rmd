@@ -18,9 +18,9 @@ install.packages("devtools")
 require("devtools")
 install.packages("dplyr")
 require(dplyr)
-
-DatosCeibo <-read.delim("Data/DatosCeibo.txt")
 devtools::use_data(DatosCeibo)
+DatosCeibo <-read.delim("Data/DatosCeibo.txt")
+
 require(PaqueteExamenUNGS)
 Tabla5(DatosCeibo)
 Tabla3(DatosCeibo)
