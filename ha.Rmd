@@ -1,1 +1,2 @@
 devtools::document()
+system.file("extdata", "DatosCeibo.txt", package = "PaqueteExamenUNGS")

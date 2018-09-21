@@ -15,15 +15,23 @@ Esta función ayuda a procesar los datos tomados por semana hasta la semana 5.
 \examples{
 Primeramente hay que contar con un archivo de texto con los datos que queremos analizar. A este archivo necesariamente lo debemos llamar DatosCeibo.txt
 Debe Incluir los siguientes titulos: Tratamiento, Semana,Longitud. La tabla puede tener semanas 1,2,3,4,5. Los tratamientos pueden ser de cualquier tipo. La longitud es propia del dato experimental.
-Este paquete puede filtrar la semana especifica que necesitamos observar y calcular la media de las replicas.
+Crear carpeta "Data"en el proyecyto e importar el archivo de texto DatosCeibo, en dicha carpeta. Luego llamar en el .Rmd en la seccion del Chunk DatosCeibo <-read.delim("Data/DatosCeibo.txt"). Luego correr la función Tabla2(DatosCeibo) y se obtendrá la tabla de la semana2
 Si queremos los datos filtrados para la semana 4 deberiamos escribir
-Tabla4=function(x) donde x es DatosCeibo , que es la tabla original donde se encuentran todos los datos de todos los tratamientos y distintas semanas con sus determinadas longitudes.
+Tabla4=(x) donde x es DatosCeibo , que es la tabla original donde se encuentran todos los datos de todos los tratamientos y distintas semanas con sus determinadas longitudes.
 El siguiente ejemplo en particular es para la semana 5.
-Tabla5=function(DatosCeibo) arrojando el siguiente resultado
+install.packages("devtools")
+require(devtools)
+install_github("kbqt14/PaqueteExamenUNGS")
+require("PaqueteExamenUNGS")
+install.packages("dplyr")
+require(dplyr)
+DatosCeibo <-read.delim("Data/DatosCeibo.txt")
+Tabla5(DatosCeibo)
+arrojando el siguiente resultado
 Tratamiento Semana Longitud
   0            5       7.72
   5            5       7.31
   10           5       5.70
-Si queremos los datos de la semana 3. Se escribiría Tabla3=function(DatosCeibo)
+Si queremos los datos de la semana 3. Se escribiría Tabla3=(DatosCeibo)
 }
 \keyword{Ceibo}
