@@ -51,10 +51,6 @@ Tabla4 <- function(x){
   Sem4 <- filter(DatosCeibo, Semana== "4")
   Sem4 %>%  group_by(Tratamiento) %>%
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
-
-
-
-
 }
 
 Tabla3 <- function(x){
