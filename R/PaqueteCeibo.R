@@ -34,7 +34,7 @@
 
 
 
-Tabla5=function(x){
+Tabla5 <- function(x){
   DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
   Sem5 <- filter(DatosCeibo, Semana== "5")
   Sem5 %>%  group_by(Tratamiento) %>%
@@ -46,7 +46,7 @@ Tabla5=function(x){
 }
 
 
-Tabla4=function(x){
+Tabla4 <- function(x){
   DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
   Sem4 <- filter(DatosCeibo, Semana== "4")
   Sem4 %>%  group_by(Tratamiento) %>%
@@ -57,7 +57,7 @@ Tabla4=function(x){
 
 }
 
-Tabla3=function(x){
+Tabla3 <- function(x){
   DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
   Sem3 <- filter(DatosCeibo, Semana== "3")
   Sem3 %>%  group_by(Tratamiento) %>%
@@ -68,7 +68,7 @@ Tabla3=function(x){
 
 }
 
-Tabla2=function(x){
+Tabla2 <- function(x){
   DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
     Sem2 <- filter(DatosCeibo, Semana== "2")
   Sem2 %>%  group_by(Tratamiento) %>%
@@ -79,7 +79,7 @@ Tabla2=function(x){
 
 }
 
-Tabla1=function(x){
+Tabla1 <- function(x){
   DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
     Sem1 <- filter(DatosCeibo, Semana== "1")
   Sem1 %>%  group_by(Tratamiento) %>%
