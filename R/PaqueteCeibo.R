@@ -31,18 +31,11 @@
 #'Tabla1=(DatosCeibo)  para la semana 1.
 #'La idea es poder calcular las medias de las longitudes de partes aéreas de plantas que son sometidas a estrés por diferentes concentraciones de metales pesados.
 
-
-{
-
 Tabla5 <- function(Tabla5){
   DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
   Sem5 <- filter(DatosCeibo, Semana== "5")
   Sem5 %>%  group_by(Tratamiento) %>%
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
-
-
-
-
 }
 
 
@@ -50,8 +43,7 @@ Tabla4 <- function(Tabla4){
   DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
   Sem4 <- filter(DatosCeibo, Semana== "4")
   Sem4 %>%  group_by(Tratamiento) %>%
-    summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
-}
+    summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))}
 
 Tabla3 <- function(Tabla3){
   DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
@@ -60,29 +52,19 @@ Tabla3 <- function(Tabla3){
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
 
 
-
-
 }
 
 Tabla2 <- function(Tabla2){
   DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
-    Sem2 <- filter(DatosCeibo, Semana== "2")
+  Sem2 <- filter(DatosCeibo, Semana== "2")
   Sem2 %>%  group_by(Tratamiento) %>%
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
-
-
-
-
 }
 
-Tabla1 <- function(Tabla1){
-  DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
+  Tabla1 <- function(Tabla1){
+    DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
     Sem1 <- filter(DatosCeibo, Semana== "1")
-  Sem1 %>%  group_by(Tratamiento) %>%
-    summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
-
-
-
+    Sem1 %>%  group_by(Tratamiento) %>%
+      summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
 }
 
-}
