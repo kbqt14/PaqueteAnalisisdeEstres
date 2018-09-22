@@ -32,7 +32,7 @@
 #'La idea es poder calcular las medias de las longitudes de partes aéreas de plantas que son sometidas a estrés por diferentes concentraciones de metales pesados.
 
 
-
+{
 
 Tabla5 <- function(Tabla5){
   DatosCeibo <-read.delim(file=paste(path.package("PaqueteExamenUNGS"),"/extdata/DatosCeibo.txt",sep=""))
@@ -82,5 +82,7 @@ Tabla1 <- function(Tabla1){
     summarise_at(vars(-Tratamiento), funs(mean(., na.rm=TRUE)))
 
 
+
+}
 
 }
