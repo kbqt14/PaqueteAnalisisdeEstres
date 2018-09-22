@@ -1,0 +1,145 @@
+P[0KA[0Kq[0K[?25l$ git commit <PA[0K[?25h[?25l$ git commit <P[0K[?25ha[0Kq[0Ku[0K[?25le[0K[19G[?25h[20G[?25l$ git commit <Paquet[0K[?25he[0KE[0Kx[0Ka[0K[26G[?25l$ git commit <PaqueteExa e[0K[?25h[28G[27G[?25l$ git commit <PaqueteExa[0K[26G[?25h[25G[26G[25G[?25l$ git commit <PaqueteExam[0K[?25he[0Kn[0KU[0KN[0KG[0KS[0K/[0K>[0K[?25l
+bash: syntax error near unexpected token `newline'[0K
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25h[?25lOn branch master[0K[1G[?25h[?25l
+Your branch is up to date with 'origin/master'.[0K
+[0K
+Changes to be committed:[0K
+  (use "git reset HEAD <file>..." to unstage)[0K
+[0K
+        [0;32mmodified:   R/PaqueteCeibo.R[0m[0K
+[0K
+Changes not staged for commit:[0K
+  (use "git add <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+  (commit or discard the untracked or modified content in submodules)[0K
+[0K
+        [0;31mmodified:   PaqueteExamenUNGS[0m (modified content, untracked content)[0K
+[0K
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ b[0K[?25hi[0K[?25l$ b[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[?25l$ git ad[0K[10G[?25h[9G[?25l$ git adx[0K[?25h[?25l$ git ad[0K[10G[?25h[9G[?25l$ git ad¿[0K[?25h¿[0Kd[0K¿[0K¿[0K[?25l$ git ad¿¿d¿[0K[?25h[?25l$ git ad¿¿d[0K[?25h[?25l$ git ad¿¿[0K[?25h[?25l$ git ad¿[0K[?25h[?25l$ git ad[0K[?25h[?25l$ git a[0K[?25hx[0Kx[0K[?25l$ git ax[0K[?25h[?25l$ git a[0K[?25hd[0Kd[0K<PaqueteExamenUNGS/>[0K[?25l
+bash: syntax error near unexpected token `newline'[0K
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0Ks[0Kt[0K[?25l$ gits[0K[?25h[?25l$ git[0K[?25h[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Your branch is ahead of 'origin/master' by 1 commit.[0K
+  (use "git push" to publish your local commits)[0K
+[0K
+Changes not staged for commit:[0K
+  (use "git add <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+  (commit or discard the untracked or modified content in submodules)[0K
+[0K
+        [0;31mmodified:   PaqueteExamenUNGS[0m (modified content, untracked content)[0K
+[0K
+no changes added to commit (use "git add" and/or "git commit -a")[0K
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[10G[?25l$ git ad[0K[?25h[?25l$ git a[0K[9G[?25h[8G[?25l$ g[0K[?25h[?25l$[0K[4G[?25h[3G[?25l$ git add -A[0K[?25h[?25l
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0Kt[0K[8G[?25l$ gitt a[0K[?25hd[0Kd[0K[?25l$ gitt ad[0K[?25h[?25l$ gitt a[0K[?25h[?25l$ gitt[0K[8G[?25h[7G[?25l$ git[0K[?25h[?25l$ gi[0K[?25h[?25l$ g[0K[5G[?25h[4G[?25l$ gi[0K[?25ht[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K-[0K[12G[?25l$ git add- A[0K[?25h}[0K}[0K}[0K[?25l$ git add- A}}[0K[?25h[?25l$ git add- A}[0K[15G[?25h[14G[?25l$ git add- A[0K[14G[?25h[13G[?25l$ git add-[0K[12G[?25h[11G[?25l$ git add[0K[?25h[?25l$ git ad[0K[10G[?25h[9G[?25l$ git add[0K[?25h[11G[?25l$ git add -[0K[?25h[13G[?25l$ git add - A[0K[?25h[?25l
+[0K[?25h[?25lfatal: pathspec '-' did not match any files[0K[1G[?25h[?25l
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K-[0KA[0K[?25l
+[0K[?25hgit: 'add-A' is not a git command. See 'git --help'.[0K[?25l
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[?25lt[0K[6G[?25h[7G[8G[7G[?25l$ git[0K[?25h[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Your branch is ahead of 'origin/master' by 1 commit.[0K
+  (use "git push" to publish your local commits)[0K
+[0K
+Changes not staged for commit:[0K
+        [0;31mmodified:   PaqueteExamenUNGS[0m (modified content, untracked content)[0K
+[0K
+no changes added to commit[0K
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEnumerating objects: 7, done.[0K[?25l
+Counting objects:  71% (5/7)[0K[1G[?25hCounting objects: 100% (7/7), done.[0K[?25l
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (3/3), done.[0K
+Writing objects: 100% (4/4), 386 bytes | 55.00 KiB/s, done.[0K
+Total 4 (delta 2), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[0K[?25l
+[0K[?25hTo https://github.com/kbqt14/PaqueteExamenUNGS.git[0K[?25l
+   dce15b7..3b97d80  master -> master[0K
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$ gitt[0K
+[0K[?25hbash: gitt: command not found[0K[?25l
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$ dfs[0K[?25h[?25l$ df[0K[?25h[?25l$ d[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Kus[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Your branch is up to date with 'origin/master'.[0K
+[0K
+Changes not staged for commit:[0K
+  (use "git add <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+  (commit or discard the untracked or modified content in submodules)[0K
+[0K
+        [0;31mmodified:   PaqueteExamenUNGS[0m (modified content, untracked content)[0K
+[0K
+no changes added to commit (use "git add" and/or "git commit -a")[0K
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[10G[?25l$ git ad[0K[?25h[?25l$ git a[0K[?25h[?25l$ git[0K[7G[?25h[6G[?25l$ g[0K[?25h[?25l$[0K[4G[?25h[3G[?25l$ git reset HEAD[0K[?25h[18G[?25l$ git reset HEAD P[0K[?25ha[0Kq[0Ku[0Ke[0Kt[0Ke[0KE[0Kx[0Ka[0Km[0Ke[0Kn[0KUY[0K[?25l$ git reset HEAD PaqueteExamenU[0K[?25hN[0KG[0KS[0K/[0K[?25l
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git[0K[?25h[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25h[16G[?25l$ git commit - "[0K[?25hA[0KA[0K"[0K[?25l$ git commit - "AA[0K[?25h[?25l$ git commit - "A[0K[?25h[?25l$ git commit - "[0K[?25h[?25l$ git commit -[0K[16G[?25h[15G[?25l$ git commit -m[0K[?25h[17G[?25l$ git commit -m "[0K[?25hA[0KA[0KA[0K"[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Your branch is up to date with 'origin/master'.[0K
+[0K
+Changes not staged for commit:[0K
+        [0;31mmodified:   PaqueteExamenUNGS[0m (modified content, untracked content)[0K
+[0K
+no changes added to commit[0K
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0m[0K[1G[?25h[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K[?25l
+$[0K[3G[?25h[?25l
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$  git add files[0K[?25h[?25l
+[0K[?25hfatal: pathspec 'files' did not match any files[0K[?25l
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add P[0K[?25ha[0Kq[0Ku[0Ke[0Kt[0Ke[0KE[0Kx[0Ka[0Km[0Ke[0Kn[0K[?25lU[0K[24G[?25h[25G[?25l$ git add PaqueteExamenUN[0K[?25hG[0KS[0K/[0K[?25l
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$  git commit -am '[0K[?25hP[0Ka[0Kq[0Ku[0Ke[0Kt[0Ke[0KE[0Kx[0Ka[0Km[0Ke[0Kn[0KU[0KN[0KG[0KS[0K/[0K1[0K[?25l$  git commit -am 'PaqueteExamenUNGS/[0K[?25h![0K[?25l$  git commit -am 'PaqueteExamenUNGS/[0K[?25h°[0K[?25l$  git commit -am 'PaqueteExamenUNGS/[0K[?25h'[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Your branch is up to date with 'origin/master'.[0K
+[0K
+Changes not staged for commit:[0K
+        [0;31mmodified:   PaqueteExamenUNGS[0m (modified content, untracked content)[0K
+[0K
+no changes added to commit[0K
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+$[0K[3G[?25h[0m[0K]0;:/c/Users/hp/Documents/PaqueteCeibo[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K
+[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/19907744/sources/prop/10A825ED.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/19907744/sources/prop/229B368F.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/19907744/sources/prop/31AE2223.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/19907744/sources/prop/7A8DA9BE.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32mhp@DESKTOP-F8G6KGD [0;35m [0;33m~/Documents/PaqueteCeibo[0;36m (master)[0m[0K[20G[?25h[?25l
+$[0K[3G[?25h
